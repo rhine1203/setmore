@@ -1,0 +1,13 @@
+messages:
+  successSetHome: "&aHome is set."
+  successDelHome: "&aHome has been deleted."
+  successTeleportHome: "&aTeleported to the home."
+  failedThisHomeDoesNotExist: "&cThis home does not exist"
+  failedYouDoNotHaveHome: "&cYou don't have home."
+  yourHomes: "&fYour homes"
+  thisCommandIsOnlyPlayer: "&cThis command is available only to the player."
+  successSetSpawn: "&aSpawn location set!"
+  successDelSpawn: "&aSpawn location deleted!"
+  successTeleportSpawn: "&aTeleported to spawn!"
+  failedSpawnIsNotBeenSetYet: "&cSpawn location has not been set yet!"
+  failedDeleteSpawnDoesNotExist: "&cSpawn location does not exist to delete!"
