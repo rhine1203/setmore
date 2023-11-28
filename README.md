@@ -1,5 +1,5 @@
 # Setmore
-Setmore is Sethome and Setspawn merged plugin.
+Setmore is a plugin, that offers Sethome and Setspawn commands.
 ## How to use
 ### Setspawn
 - /spawn - Teleport to spawn
