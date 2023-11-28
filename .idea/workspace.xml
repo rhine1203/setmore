@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbf6d262-2179-4994-bd6a-dc1ee07de6bd" name="Changes" comment="" />
+    <list default="true" id="cbf6d262-2179-4994-bd6a-dc1ee07de6bd" name="Changes" comment="Add 21 files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -71,6 +74,19 @@
       <option name="presentableId" value="Default" />
       <updated>1701146941894</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add 21 files">
+      <option name="closed" value="true" />
+      <created>1701158922713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701158922713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add 21 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 21 files" />
   </component>
 </project>
