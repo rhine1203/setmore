@@ -9,4 +9,4 @@ Setmore is a plugin, that offers Sethome and Setspawn commands.
 - /home [home name] - Teleport to home
 - /sethome [home name] - Set home
 - /delhome [home name] - Delete home
-- /homelist [home list] - Display a homelist
+- /homelist [home list] - Display a list of homes

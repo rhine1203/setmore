@@ -1,5 +1,5 @@
 name: Setmore
-version: '${project.version}'
+version: '1.1.0'
 main: net.rhine.plugin.setmore.Setmore
 api-version: '1.20'
 
@@ -13,6 +13,9 @@ commands:
   delspawn:
     description: Delete spawn
     permission: setmore.delspawn
+  spawninfo:
+    description: Display a spawn info
+    permission: setmore.spawninfo
   home:
     description: TP home
     permission: setmore.home
@@ -39,4 +42,6 @@ permissions:
   setmore.delhome:
     default: true
   setmore.homelist:
+    default: true
+  setmore.spawninfo:
     default: true

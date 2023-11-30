@@ -48,6 +48,9 @@ public final class Setmore extends JavaPlugin {
         } else if (command.getName().equalsIgnoreCase("delspawn")) {
             delspawn(sender, command, label, args);
             return true;
+        } else if (command.getName().equalsIgnoreCase("spawninfo")) {
+            spawninfo(sender, command, label, args);
+            return true;
         } else if (command.getName().equalsIgnoreCase("home")) {
             home(sender, command, label, args);
             return true;
@@ -108,6 +111,22 @@ public final class Setmore extends JavaPlugin {
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.successDelSpawn", "&aSpawn location deleted!")));
         } else {
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.failedDeleteSpawnDoesNotExist", "&cSpawn location does not exist to delete!")));
+        }
+    }
+
+    private void spawninfo(CommandSender sender, Command command, String label, String[] args) {
+        Player player = (Player)sender;
+        FileConfiguration config = getConfig();
+        if (!config.contains("spawn")) {
+            String failedSpawnMessage = ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.failedSpawnIsNotBeenSetYet", "&cSpawn location has not been set yet!"));
+            player.sendMessage(failedSpawnMessage);
+        }
+        else {
+            double x = config.getDouble("spawn.x");
+            double y = config.getDouble("spawn.y");
+            double z = config.getDouble("spawn.z");
+            String spawnLocation = String.valueOf(x) + " " + String.valueOf(y) + " " + String.valueOf(z);
+            player.sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.spawnLocation") + spawnLocation));
         }
     }
 

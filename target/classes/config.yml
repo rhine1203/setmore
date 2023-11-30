@@ -5,6 +5,7 @@ messages:
   failedThisHomeDoesNotExist: "&cThis home does not exist"
   failedYouDoNotHaveHome: "&cYou don't have home."
   yourHomes: "&fYour homes"
+  spawnLocation: "&fSpawn: "
   thisCommandIsOnlyPlayer: "&cThis command is available only to the player."
   successSetSpawn: "&aSpawn location set!"
   successDelSpawn: "&aSpawn location deleted!"
