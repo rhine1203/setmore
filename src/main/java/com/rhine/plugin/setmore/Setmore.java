@@ -1,4 +1,4 @@
-package net.rhine.plugin.setmore;
+package com.rhine.plugin.setmore;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
